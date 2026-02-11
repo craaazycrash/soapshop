@@ -18,9 +18,14 @@ section{
 }
 
 .hero-section{
-  background-image: url('https://images6.alphacoders.com/126/1264263.jpg');
+  background-image: url(/main.png);
   background-size: cover;
   background-position: center;
+  padding-bottom: 200px;
+}
+
+.herocontent {
+  padding-top: 200px;
 }
 
 .card{
@@ -91,25 +96,6 @@ section{
 }
 
 @media (max-width: 768px) {
-  .hero-section {
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-top: 15px;
-    padding-right: 20px;
-  }
-
-  .hero-section h1{
-    font-size: 30px;
-  }
-
-  .hero-section p{
-    font-size: 17px;
-    width: 45vw;
-  }
-
-  .hero-section button{
-    margin-bottom: 20px;
-  }
   
   .display-3 {
     font-size: 2.5rem;

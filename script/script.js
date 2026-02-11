@@ -354,7 +354,7 @@ function displayProducts() {
                             <h5 class="text-success mb-0">₹${product.price}</h5>
                         </div>                                    
                         <p class="card-text text-muted small flex-grow-1">${product.description}</p>
-                        <button class = "btn btn-primary w-100 mt-2" onclick = "addToCart(${product.id})">Add to cart</button>
+                        <button class = "btn btn-dark w-100 mt-2" onclick = "addToCart(${product.id})">Add to cart</button>
                     </div>
                 </div>  
         `;
