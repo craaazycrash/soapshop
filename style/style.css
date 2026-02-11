@@ -18,7 +18,6 @@ section{
 }
 
 .hero-section{
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   background-image: url('https://images6.alphacoders.com/126/1264263.jpg');
   background-size: cover;
   background-position: center;
@@ -105,7 +104,7 @@ section{
 
   .hero-section p{
     font-size: 17px;
-    width: 50vw;
+    width: 45vw;
   }
 
   .hero-section button{
